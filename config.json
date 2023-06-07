@@ -1,0 +1,24 @@
+{
+  "rtsp_streams": [
+    {
+      "url":"rtsp://admin:TVCamera1@10.0.0.3",
+      "camera_number":1
+    },
+    {
+      "url":"rtsp://admin:TVCamera2@10.0.0.28",
+      "camera_number":2
+    },
+    {
+      "url":"rtsp://admin:TVCamera3@10.0.0.189",
+      "camera_number":3
+    }
+  ],
+  "output_directory": "Videos",
+  "output_resolution": "1280x720",
+  "bucket_name": "savevideos",
+  "s3_folder_name":"RTSP",
+  "duration": 300,
+  "segment_duration":300,
+  "AWS_ACCESS_KEY_ID":"",
+  "AWS_SECRET_ACCESS_KEY":""
+}
